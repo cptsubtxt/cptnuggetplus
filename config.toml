@@ -1,0 +1,4 @@
+baseurl = "https://cptnuggetplus.fra1.digitaloceanspaces.com/"
+metaDataFormat = "yaml"
+title = "Travel Photo Blog"
+theme = "blist"
