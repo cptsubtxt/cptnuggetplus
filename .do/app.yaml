@@ -1,8 +1,0 @@
-name: cptnuggetplus
-services:
-- dockerfile_path: Dockerfile
-  github:
-    branch: main
-    deploy_on_push: true
-    repo: cptsubtxt/cptnuggetplus
-  name: cptnuggetplus

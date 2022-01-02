@@ -1,4 +1,4 @@
-baseurl = "https://cptnuggetplus.fra1.digitaloceanspaces.com/"
+baseurl = "https://serene-nightingale-d0b077.netlify.app"
 metaDataFormat = "yaml"
 title = "Travel Photo Blog"
 theme = "blist"
