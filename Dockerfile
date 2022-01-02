@@ -6,7 +6,7 @@ WORKDIR /src
 # If your app requires the build context to be set to a subdirectory inside the repo, you
 #   can use the source_dir app spec option, see: https://www.digitalocean.com/docs/app-platform/references/app-specification-reference/
 COPY . .
-RUN hugo server --renderToDisk
+RUN npm i && hugo server --renderToDisk
 
 # FROM klakegg/hugo:ext-alpine as builder
 # WORKDIR /src
