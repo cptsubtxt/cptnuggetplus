@@ -5,4 +5,4 @@ WORKDIR /src
 
 COPY . .
 
-CMD ["server"]
+RUN npm i && hugo -D --gc
