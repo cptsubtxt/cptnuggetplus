@@ -1,5 +1,5 @@
 
-FROM klakegg/hugo:ext-alpine
+FROM klakegg/hugo:ext-alpine as builder
 WORKDIR /src
 # The build context is set to the directory where the repo is cloned.
 # This will copy all files in the repo to /app inside the container.
