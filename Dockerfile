@@ -9,4 +9,7 @@
 
 FROM klakegg/hugo:ext-alpine
 
-WORKDIR /src
+RUN apk --no-cache add ca-certificates
+WORKDIR /root/
+# Copy the binary from the builder stage and set it as the default command.
+CMD ["server"]
