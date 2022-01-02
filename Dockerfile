@@ -8,3 +8,5 @@
 # RUN npm i && hugo -D --gc
 
 FROM klakegg/hugo:ext-alpine
+
+WORKDIR /src
