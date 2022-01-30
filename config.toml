@@ -13,7 +13,7 @@ DefaultContentLanguageInSubdir = true
     [languages.en.params]
       introTitle = "Hey, how you doing"
       introSubtitle = "Two people eager to travel, a van and a dog."
-      introPhoto = "/images/site/feature_picture.jpeg"
+      introPhoto = "/images/site/feature_picture.png"
     [[languages.en.menu.main]]
         name = "Blog"
         url = "blog"
@@ -38,7 +38,7 @@ DefaultContentLanguageInSubdir = true
     [languages.de.params]
       introTitle = "Hey, how you doing"
       introSubtitle = "Zwei reiselustige Leute, ein Van und ein Hund."
-      introPhoto = "/images/site/feature_picture.jpeg"
+      introPhoto = "/images/site/feature_picture.png"
     [[languages.de.menu.main]]
         name = "Blog"
         url = "blog"
