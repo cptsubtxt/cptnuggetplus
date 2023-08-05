@@ -1,3 +1,3 @@
-FROM klakegg/hugo:ext-alpine
+FROM klakegg/hugo:latest-ext
 
 RUN apk add git
